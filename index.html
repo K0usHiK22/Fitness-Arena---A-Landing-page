@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Fitness Arena - A Fitness website</title>
+
+</head>
+
+<body>
+    <!-- header section contains navbar -->
+    <header>
+        <div class="nav-bar-left">
+            <a href="#Home" class="logo">FITNESS <span>ARENA</span></a>
+            <div class="menu" id="menu-icon"><svg class="hamburger" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" width="24" height="24" color="white" fill="none">
+                    <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4 19L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+
+
+                <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"
+                    color="white" fill="none">
+                    <path d="M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M6 18L18 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+        </div>
+        <div class="navbar-right" id="navigation-bar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Plans">Plans</a></li>
+                <li><a href="#Offerings">Offerings</a></li>
+                <li><a href="#Nutrition">Nutrition</a></li>
+                <li><a href="#Trainers">Trainers</a></li>
+                <li><a href="#contactus">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="popupForm" class="popup-form">
+            <div class="form-container">
+                <span class="close-btn" id="closeBtn">&times;</span>
+                <p class="reg-class">Registration</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+
+                    <label for="Phonenumber">Phone number:</label>
+                    <input type="text" id="Phonenumber" required>
+
+                    <button class="submit-btn" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div id="enrollform" class="enroll-form">
+            <div class="form-container">
+                <span class="close-btn" id="closeBtn">&times;</span>
+                <p class="reg-class">Enrollment</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+
+                    <label for="Phonenumber">Phone number:</label>
+                    <input type="text" id="Phonenumber" required>
+
+                    <button class="submit-btn" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="nutrition-holder" id="nutritionform">
+            <div class="inner-nutrition-popup">
+                <span class="nutrition-close-btn" id="nutrition-closeBtn">&times;</span>
+                <h1>Nutrition Information</h1>
+                <input type="text" placeholder="Enter the food name" id="fooditem">
+                <button class="check-nutrition" id="nutrition-btn">Check</button>
+
+                <div class="nutrition-data" id="data-of-nutrition">
+                    <p>food</p>
+                    <p>calories</p>
+                    <p>protein</p>
+                    <p>fat</p>
+                    <p>carbohydrates</p>
+                </div>
+            </div>
+        </div>
+        <section class="hero-section common" id="Home">
+            <div class="hero-bg-container" data-aos="zoom-in">
+                <img class="hero-bg" src="assets/hero-section-1 bg.jpg" alt="">
+            </div>
+
+            <div class="hero-inner-content" data-aos="zoom-in">
+                <h1>WELCOME TO</h1>
+                <h2>FITNESS <span>ARENA</span></h2>
+                <h3><span class="multiline"></span></h3>
+
+                <div class="join-us">
+                    <button>Join us</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About us section starts from here -->
+
+        <section class="about-section common" id="About">
+            <div class="title" data-aos="fade-up">
+                <h1>About <span>us</span></h1>
+            </div>
+            <div class="inner-about-us" data-aos="fade-up">
+                <div class="only-about-us aboutus" data-aos="fade-up">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam itaque iusto quo voluptatum
+                        fuga deleniti accusantium suscipit harum velit deserunt ullam id vel excepturi, ad repellendus
+                        veniam voluptatem molestias aliquid architecto voluptate illum. Facere velit doloribus aliquid
+                        consequatur est! Architecto quod molestias repellendus tempore non voluptatem, eos modi quisquam
+                        reiciendis velit, voluptas minus odio alias laboriosam saepe ipsa debitis nisi? Consequuntur
+                        accusantium ipsum earum totam repellendus nemo natus animi doloribus optio iusto assumenda
+                        corrupti quasi blanditiis, recusandae nulla sequi adipisci quas. Aut explicabo tempora
+                        necessitatibus nesciunt eius, et maiores placeat maxime mollitia recusandae. Repudiandae facere,
+                        illum dolorem sed voluptas rem eos illo labore veritatis soluta corporis amet ex eum sit, vero
+                        maiores? Enim praesentium nihil sequi in, fugit repudiandae iste cupiditate quod! Reiciendis
+                        alias porro quibusdam dolores suscipit, praesentium ea quia similique cumque. Omnis voluptas
+                        similique consequatur illo suscipit vero in, voluptatibus commodi soluta totam rerum voluptate
+                        cupiditate eius deleniti dolorum ab dolore odit nulla eaque ipsum repellendus! Itaque
+                        necessitatibus dolorum maiores. Neque numquam ullam atque aut distinctio debitis similique eaque
+                        velit cupiditate, necessitatibus quidem eveniet adipisci asperiores dolorum quis error illo quam
+                        sunt iste? Sed tempora reprehenderit nemo ipsa ducimus nobis et eum a dignissimos iure vel quos
+                        modi possimus atque repellat minima facere cupiditate voluptas autem, asperiores est! Ad
+                    </p>
+                    <div class="greenButton">
+                        <button class="more">Click to read more</button>
+                    </div>
+
+                </div>
+                <div class="about-us-image-and-box-holder">
+                    <div class="box-image">
+                        <img src="assets/about-us-bg.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Our plans section starts from here -->
+
+        <section class="about-section common" id="Plans">
+            <div class="title" data-aos="fade-up">
+                <h1>Our <span>Plans</span></h1>
+            </div>
+            <div class="inner-about-us" data-aos="fade-up">
+                <div class="outer-box-of-plans" data-aos="fade-up">
+                    <div class="inner-box-of-plans">
+                        <div class="holder-of-offerings">
+                            <h2>Basic <span>Plan</span></h2>
+                            <div class="offering-1 offer">
+                                <div class="inner-offering-plan-1 box-2 box-3 box-4">
+                                    <div class="pricing">
+                                        <h2><span>$90 </span>Per Month</h2>
+                                            <ul class="list-of-offers">
+                                                <li>Lorem ipsum dolor sit.</li>
+                                                <li>Lorem, ipsum dolor.</li>
+                                                <li>Lorem ipsum dolor sit amet.</li>
+                                            </ul>
+                                        <div class="register-btn">
+                                            <button>Register Plan</button>
+                                        </div>
+                                        <div class="registered-btn">
+                                            <button>Registered Plan</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="holder-of-offerings">
+                            <h2>Intermediate <span>Plan</span></h2>
+                            <div class="offering-1 offer">
+                                <div class="inner-offering-plan-1 box-2 box-3 box-4">
+                                    <div class="pricing">
+                                        <h2><span>$300 </span>Quarterly pack</h2>
+                                            <ul class="list-of-offers">
+                                                <li>Lorem ipsum dolor sit.</li>
+                                                <li>Lorem, ipsum dolor.</li>
+                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                <li>Lorem ipsum dolor sit amet.</li>
+                                            </ul>
+                                        
+                                        <div class="register-btn">
+                                            <button>Register Plan</button>
+                                        </div>
+                                        <div class="registered-btn">
+                                            <button>Registered Plan</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="holder-of-offerings">
+                            <h2>Advanced <span>Plan</span></h2>
+                            <div class="offering-1 offer">
+                                <div class="inner-offering-plan-1 box-2 box-3 box-4">
+                                    <div class="pricing">
+                                        <h2><span>$500 </span>Quarterly pack</h2>
+                                       
+                                            <ul class="list-of-offers">
+                                                <li>Lorem ipsum dolor sit.</li>
+                                                <li>Lorem, ipsum dolor.</li>
+                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                <li>Lorem ipsum dolor sit amet.</li>
+                                            </ul>
+                                        
+                                        <div class="register-btn">
+                                            <button>Register Plan</button>
+                                        </div>
+                                        <div class="registered-btn">
+                                            <button>Registered Plan</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Offerings section stats from here -->
+
+        <section class="offerings-section common" id="Offerings">
+            <div class="title" data-aos="fade-up">
+                <h1>Offer<span>ings</span></h1>
+            </div>
+            <div class="grid-holder-offerings" data-aos="fade-up">
+                <div class="holder-of-offerings">
+                    <h2>Strength <span>Training</span></h2>
+                    <div class="offering-1 offer">
+                        <div class="inner-offering-img-1 box-2">
+                            <img src="assets/strength-training-1.jpg" alt="">
+                        </div>
+                        <div class="inner-offering-img-2 box-2">
+                            <img src="assets/strength-training-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="holder-of-offerings">
+                    <h2>Fat <span>Loss</span></h2>
+                    <div class="offering-2 offer">
+                        <div class="inner-offering-img-1 box-2">
+                            <img src="assets/fatloss-1.jpg" alt="">
+                        </div>
+                        <div class="inner-offering-img-2 box-2">
+                            <img src="assets/fatloss-2.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid-holder-offerings" data-aos="fade-up">
+                <div class="holder-of-offerings">
+                    <h2>Personal <span>Nutritionist</span></h2>
+                    <div class="offering-3 offer">
+                        <div class="inner-offering-img-1 box-2">
+                            <img src="assets/certified-nutritionist-1.jpg" alt="">
+                        </div>
+                        <div class="inner-offering-img-2 box-2">
+                            <img src="assets/personal-nutritinist-2.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="holder-of-offerings">
+                    <h2>Personal <span>Trainer</span></h2>
+                    <div class="offering-4 offer">
+                        <div class="inner-offering-img-1 box-2">
+                            <img src="assets/personal-trainer-1.jpg" alt="">
+                        </div>
+                        <div class="inner-offering-img-2 box-2">
+                            <img src="assets/personal-traine-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nutrition course section starts from here -->
+
+        <section class="Nutrition-section common" id="Nutrition">
+
+            <div class="title" data-aos="fade-up">
+                <h1>Nutrition <span>Course</span></h1>
+            </div>
+            <div class="inner-about-us" data-aos="fade-up">
+
+                <div class="Nutrition-image-and-box-holder">
+                    <div class="box-image">
+                        <img src="assets/nutrition-section.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="only-nutrition aboutus" data-aos="fade-up">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quidem quibusdam nostrum
+                        magnam reiciendis voluptatibus dignissimos expedita deserunt, aut provident voluptatum
+                        cupiditate nisi, earum rem tenetur in odit corrupti voluptates veniam ducimus porro debitis
+                        natus nesciunt. Quas, vero ratione quo sunt eius dolorum ab assumenda voluptatibus distinctio
+                        tempora molestias corporis aut molestiae delectus, magnam blanditiis illum officiis. Consequatur
+                        inventore vitae voluptate obcaecati aperiam, molestiae quod sunt facilis autem dolorem,
+                        doloribus porro harum doloremque, ducimus beatae ipsa maiores reiciendis commodi nam. Tenetur
+                        odit porro illo fugit dignissimos deserunt laboriosam assumenda nulla aspernatur debitis beatae
+                        eligendi, a minima enim, quia perferendis fugiat est laudantium accusantium impedit fuga itaque?
+                        Iste, rerum tenetur laborum reprehenderit eius eaque vero culpa sequi commodi unde assumenda,
+                        illo harum et maiores. Quis enim quidem nam porro autem! Eaque veniam possimus assumenda fugit
+                        temporibus! Ab voluptatibus magni eius nostrum fugiat minus, animi molestiae veritatis sed vel,
+                        quam exercitationem iste?</p>
+                    <div class="button-holder">
+                        <div class="greenButton">
+                            <button class="Enroll-btn">Enroll</button>
+                            <button class="Enrolled-btn">Enrolled</button>
+                        </div>
+                        <div class="greenButton">
+                            <button class="check" id="nutrition-btn">Check Nutrition</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Review section of the page starts from here -->
+
+        <section class="trainers-section common" id="Trainers">
+            <div class="title" data-aos="fade-up">
+                <h1>Professional <span>Trainers</span></h1>
+            </div>
+            <div class="trainer-holder" data-aos="fade-up">
+                <div class="inner-trainer-holder">
+                    <h1>Ellyse<span>knight</span></h1>
+                    <div class="trainer-1 offer">
+                        <div class="trainer-img-holder box">
+                            <img src="assets/trainer-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                    </div>
+                    <div class="social-media">
+                        <img src="assets/facebook.svg" alt="">
+                        <img src="assets/instagram.svg" alt="">
+                        <img src="assets/linkedin.svg" alt="">
+                    </div>
+                </div>
+                <div class="inner-trainer-holder">
+                    <h1>Steve<span>david</span></h1>
+                    <div class="trainer-2 offer">
+                        <div class="trainer-img-holder box box-2">
+                            <img src="assets/trainer-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                    </div>
+                    <div class="social-media">
+                        <img src="assets/facebook.svg" alt="">
+                        <img src="assets/instagram.svg" alt="">
+                        <img src="assets/linkedin.svg" alt="">
+                    </div>
+                </div>
+                <div class="inner-trainer-holder">
+                    <h1>Willia<span>mson</span></h1>
+                    <div class="trainer-3 offer">
+                        <div class="trainer-img-holder box">
+                            <img src="assets/trainer-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="">
+                    </div>
+                    <div class="social-media">
+                        <img src="assets/facebook.svg" alt="">
+                        <img src="assets/instagram.svg" alt="">
+                        <img src="assets/linkedin.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="contact-us-section" id="contactus">
+            <div class="title">
+                <h1>Contact <span>us</span></h1>
+            </div>
+            <div class="social-media">
+                <div class="facebook social">
+                    <h3>Facebook</h3>
+                    <img src="assets/facebook.svg" alt="">
+                </div>
+                <div class="instagram social">
+                    <h3>Instagram</h3>
+                    <img src="assets/instagram.svg" alt="">
+                </div>
+                <div class="linkedin social">
+                    <h3>Linkedin</h3>
+                    <img src="assets/linkedin.svg" alt="">
+                </div>
+            </div>
+            <p>© 2025 Fitness <span>Arena</span>. All Rights Reserved.</p>
+        </section>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 1000,
+            easing: 'ease-in-out',
+            delay: 100
+        });
+    </script>
+
+</body>
+
+<!-- END OF HtML
+ 
+    FEEL FREE TO CONTACT ME FOR THE USE OF CODE
+    FEEL FREE TO RE-EDIT THE CODE AS YOU DESIRE  -->
+
+</html>
